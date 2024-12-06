@@ -1,0 +1,29 @@
+name: library_app
+description: "A new Flutter project."
+
+publish_to: 'none' # Удалите эту строку, если хотите публиковать на pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.0
+  url_launcher: ^6.0.20
+  convert: ^3.0.1
+  # Uncomment to add Cupertino icons
+  # cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/library_image.jpg
+    - lib/assets/library_logo.jpg

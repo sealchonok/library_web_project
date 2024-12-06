@@ -1,0 +1,10 @@
+[
+    {
+        "model": "library.user",
+        "pk": 1,
+        "fields": {
+            "full_name": "Иван Иванов",
+            "password": "examplepassword"
+        }
+    }
+]
